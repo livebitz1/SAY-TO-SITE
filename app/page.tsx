@@ -376,7 +376,6 @@ export default function Home() {
             variants={fadeInUp}
             transition={{ duration: 0.7, delay: 0.8 }}
           >
-            <h3 className="text-lg font-medium mb-4">Or describe what you want to build</h3>
             <form ref={formRef} onSubmit={handlePromptSubmit}>
               <motion.div
                 className="bg-gradient-to-b from-black to-black backdrop-blur-sm rounded-xl p-1 border border-[#d4af37]/30 mb-4 max-w-md mx-auto shadow-[0_0_15px_rgba(212,175,55,0.1)] hover:shadow-[0_0_20px_rgba(212,175,55,0.2)] transition-all relative"
